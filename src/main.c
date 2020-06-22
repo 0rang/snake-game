@@ -31,7 +31,6 @@ typedef enum Direction
     left
 } Direction;
 
-// Change this depending on the path of your executable relative to the assets folder
 #define ASSET_PATH "../assets/"
 
 int score;
@@ -42,7 +41,6 @@ Direction current_direction;
 Vector2Int player_pos;
 Vector2Int tictac_pos;
 
-//give snake 3 blocks of tail to start
 TailPositions tail;
 
 void reset_game()
